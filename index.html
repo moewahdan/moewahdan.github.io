@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Soccer Resume</title>
+    <link rel="icon" href="img_7031.jpg"> 
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="http://nssl.goalline.ca/player_profile.php?player_id=3666573&team_id=850719&league_id=72451">Stats</a></li>
+            <li><a href="highlight.mp4">Highlight Tape</a></li>
+            <li><a href="history.html">Team History</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+        </ul>
+    </nav>
+    <h1>Moe Wahdan CV</h1>
+    <p>This website will show my professional background and achievements.</p>
+    <ul class="link">
+        <li><a href="img_7031.jpg">View in-game Picture</a></li>
+        <li><a href="moeCV.pdf">View Resume (PDF)</a></li>
+    </ul>
+
+    <button id="colorScheme1">black</button>
+<button id="colorScheme2">blue</button>
+
+    <h2>
+    <center>Current Team</center>
+        
+    <center>
+            <a href="https://daltigers.ca/sports/msoc/2023-24/roster">
+            <img src="dallogo.jpg" alt="Clickable Image">
+        </a>
+    </center>
+    </h2>
+    <h3>Full Game</h3>
+    <iframe src="https://www.youtube.com/embed/yxVTtYEbp5U" frameborder="0" allowfullscreen></iframe>
+
+    <form id="myForm">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your email" required pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+">
+        <input type="tel" name="phone" placeholder="Your phone number" required>
+        <input type="number" name="age" placeholder="Your age" required min="10" max="100">
+        <textarea name="message" placeholder="Your message" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+
+    <p id="hoverText">Hover over this text to change its color.</p>
+
+    <button id="toggleButton">Hidden Text</button>
+    <p id="hiddenParagraph" style="display: none;">This paragraph is hidden by default.</p>
+    
+
+    <footer>
+        <p>Contact me at:</p>
+        <p>Email: Moewahdan80@gmail.com</p>
+        <p>Phone: (902) 430-2269</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

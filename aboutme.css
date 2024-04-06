@@ -1,0 +1,82 @@
+/* Flexbox layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+section ~ section {
+    margin-top: 20px;
+    border-top: 2px solid #ccc;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.meals, .songs, .media {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+/* Style images with border, padding, and margin*/
+img {
+    border: 5px solid #555;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+audio {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Universal selector  */
+* {
+    box-sizing: border-box;
+}
+
+/* List styling */
+ul {
+    list-style-type: circle;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* child selector */
+ul > li {
+    padding-left: 5px;
+}
